@@ -21,9 +21,6 @@ jobs:
       - name: Test npm
         run: npm test
 
-      - name: Start npm
-        run: npm start
-
       - name: Wait for server
         run: npx wait-on http://localhost:3000
         
